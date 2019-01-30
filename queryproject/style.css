@@ -9,17 +9,31 @@ body {
     #content {
         width: 33px;
     }
+}
+
 @media screen and (min-width: 400px) and (max-width: 499px) {
     #content {
         width: 66px;
     }
+}
+
 @media screen and (min-width: 500px) and (max-width: 699px) {
     #content {
         width: 128px;
     }
+}
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    #content {
+        width: 370px;
+    }
+}
 
-
+@media screen and (min-width: 900px) {
+    #content {
+        width: 900px;
+    }
+}
 
 #wrapper {
     height: 100%;
