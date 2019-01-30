@@ -37,7 +37,8 @@ body {
 
 #wrapper {
     height: 100%;
-    width: 100% background: whitesmoke;
+    width: 100%; 
+    background: whitesmoke;
     display: flex;
     flex-basis: content;
     flex-direction: flex-start;
